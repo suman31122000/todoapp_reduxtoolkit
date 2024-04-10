@@ -4,11 +4,17 @@ import Todoapp from './App.jsx'
 import {Provider} from 'react-redux'
 import {store} from './redux/store'
 import './index.css'
+import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import About from './about.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-    <Todoapp />
+    <BrowserRouter>
+    <Routes>
+      <Route path='/todoapp_reduxtoolkit' element={<Todoapp/>}></Route>
+    </Routes>
+    </BrowserRouter>
     </Provider>
   </React.StrictMode>,
 )

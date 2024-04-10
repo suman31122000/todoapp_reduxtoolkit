@@ -4,7 +4,7 @@ import { createSlice, nanoid } from '@reduxjs/toolkit';
 export const todoSlice = createSlice({
     name: 'todo',
     initialState : {
-        todos: [{ id: 1, text: "hello" }],
+        todos: [{ id: 1, text: "Wellcome to Todoapp" }],
     },
     reducers: {
         addtodo: (state, action) => {
