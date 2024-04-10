@@ -1,0 +1,81 @@
+body{
+    background-color: teal;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.todo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.todoname{
+    font-size: 8vh;
+    margin-bottom: 10vh;
+}
+.todoinput{
+    height: 5vh;
+    width: 70vh;
+    background-color: aliceblue;
+    color: black;
+    resize: vertical;
+    overflow-y: auto;
+    border: none;
+    margin-right: 5vh;
+}
+.button{
+    background-color: seashell;
+    color: black;
+    height: 6vh;
+    width: 20vh;
+    border: none;
+}
+.listitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2vh;
+    background-color: seashell;
+    color: black;
+    width: 150vh;
+    white-space: pre-wrap; 
+     overflow-wrap: break-word;
+     margin: 5VH;
+}
+.button1{
+    background-color: seashell;
+    color: black;
+    height: 6vh;
+    width: 20vh;
+    border: none;
+}
+.listtext {
+    background-color: seashell;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 40vh;
+     white-space: pre-wrap; 
+    overflow-wrap: break-word;
+    font-size: 3vh;
+  }
+  .button:hover{
+    background-color: teal;
+    color: aliceblue;
+  }
+  .button1:hover{
+    background-color: teal;
+    color: aliceblue;
+  }
+  .checkbox{
+    height: 5vh;
+    width: 10vh;
+    background-color: aquamarine;
+  }
+  
