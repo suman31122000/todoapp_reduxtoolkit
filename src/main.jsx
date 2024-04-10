@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
     <BrowserRouter>
     <Routes>
-      <Route path='/todoapp_reduxtoolkit' element={<Todoapp/>}></Route>
+      <Route path='/' element={<Todoapp/>}></Route>
     </Routes>
     </BrowserRouter>
     </Provider>
